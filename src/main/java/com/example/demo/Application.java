@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class Application {
-
+    static boolean flag = true;
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 	}
